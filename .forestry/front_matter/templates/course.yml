@@ -5,6 +5,8 @@ fields:
 - type: text
   name: type
   label: type
+  default: course
+  hidden: true
 - type: text
   name: description
   label: description
