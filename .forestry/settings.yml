@@ -8,12 +8,12 @@ sections:
   path: ''
   label: Docs
   create: all
-  match: "**/*"
+  match: "**/*.md"
 - type: directory
   path: courses
   label: Courses
   create: all
-  match: "**/*"
+  match: "**/*.md"
 upload_dir: static/img
 public_path: "/img"
 front_matter_path: ''
