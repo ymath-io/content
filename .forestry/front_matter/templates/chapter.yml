@@ -1,0 +1,13 @@
+---
+label: Chapter
+hide_body: false
+fields:
+- type: text
+  name: type
+  label: type
+- type: text
+  name: title
+  label: title
+- type: number
+  name: index
+  label: index
