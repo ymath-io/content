@@ -1,6 +1,6 @@
 # Writing Content for YMath
 
-Welcome to the content-writing guide for YMath! 
+Welcome to the content writing guide for YMath! 
 
 ## Setting up a development environment
 
