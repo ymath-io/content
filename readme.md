@@ -3,8 +3,6 @@ title: Getting Started
 description: Setup your environment and tools to get started with writing content for YMath!
 ---
 
-# Writing Content for YMath
-
 Welcome to the content writing guide for YMath! 
 
 ## Setting up a development environment
@@ -33,5 +31,8 @@ git commit -m 'content: completed chapter 2 of conics'
 git push
 ```
 
+## Next steps
+
+Continue reading for more information!
 
 
