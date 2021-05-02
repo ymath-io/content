@@ -18,7 +18,8 @@ cd ymath-content
 3. Write your content in this directory.
 4. When you are ready to publish your changes:
 ```shell
-git commit -am 'content: completed chapter 2 of conics'
+git add .
+git commit -m 'content: completed chapter 2 of conics'
 # always prefix your commits with one of these:
   # 'content' : you added new material to a course
   # 'style' : you changed the formatting somewhere
