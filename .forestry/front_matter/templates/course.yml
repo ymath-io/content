@@ -8,8 +8,8 @@ fields:
   default: course
   hidden: true
 - type: text
-  name: description
-  label: description
-- type: text
   name: title
   label: title
+- type: text
+  name: description
+  label: description
