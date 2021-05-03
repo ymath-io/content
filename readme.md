@@ -18,7 +18,7 @@ git clone https://github.com/ymath-io/content.git ymath-content
 ```shell
 cd ymath-content
 ```
-3. Write your content in this directory.
+3. Write your content in the `courses` directory.
 4. When you are ready to publish your changes:
 ```shell
 git add .
