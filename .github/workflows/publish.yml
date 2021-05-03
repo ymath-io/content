@@ -4,10 +4,16 @@ on: push
 
 jobs:
   publish:
-    - name: Invoke workflow in ymath-io/ymath.io
-      uses: benc-uk/workflow-dispatch@v1
-      with:
-        workflow: cd
-        repo: ymath-io/ymath.io
-        token: ${{ secrets.PERSONAL_TOKEN }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+    steps:
+      - name: Invoke workflow in ymath-io/ymath.io
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: cd
+          repo: ymath-io/ymath.io
+          token: ${{ secrets.PERSONAL_TOKEN }}
 
